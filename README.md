@@ -1,5 +1,7 @@
-capybara-browserstack
-=========
+# testunit-browserstack
+=======================
+
+Selenium examples for TestUnit and BrowserStack Automate
 
 This repository provides information and helpful tweaks to run your TestUnit tests on the BrowserStack selenium cloud infrastructure.
 
