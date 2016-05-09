@@ -20,24 +20,10 @@ These can be found on the automate accounts page on [BrowserStack](https://www.b
 
 
 ###Run tests
-* Single Test:
-    `
-    rake name_of_test
-    `
-
-Example:
-`
-rake windows_firefox_40
-`
+* Single Test: `rake name_of_test ` Example: `rake windows_firefox_40`
 You see the other tests in the rakefile.
-
-* Tests in Parallel:
-	`
-	rake parallel_test
-	`
-* Local test 
-
-To run local tests, just set the `browserstack.local` capability to true in the test.
+* Parallel Tests: `rake parallel_test`
+* Local test: To run local tests, just set the `browserstack.local` capability to true in the test.
 
 ###Further Reading
 - [TestUnit](http://ruby-doc.org/stdlib-1.8.7/libdoc/test/unit/rdoc/Test/Unit.html)
